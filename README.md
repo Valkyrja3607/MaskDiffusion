@@ -1,5 +1,6 @@
 # MaskDiffusion: Exploiting Pre-trained Diffusion Models for Semantic Segmentation
-This repo is the official implementation of "MaskDiffusion: Exploiting Pre-trained Diffusion Models for Semantic Segmentation".
+This repo is the official implementation of
+["MaskDiffusion: Exploiting Pre-trained Diffusion Models for Semantic Segmentation"](https://arxiv.org/abs/2403.11194).
 
 MaskDiffusion is an innovative approach to open-vocabulary semantic segmentation that utilizes pretrained frozen
 Stable Diffusion models. It overcomes the challenges of traditional semantic segmentation methods by not requiring
@@ -32,6 +33,7 @@ To install docker to your environment, please refer to [this repository](https:/
 ## Dataset
 
 Please set DATASET_DIR variable in Makefile to directory your dataset is containing.
+This implementation use Cityscapes as default dataset.
 The following structure is assumed.
 
 ```sh
