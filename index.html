@@ -23,24 +23,6 @@
     <meta name="twitter:description" content="Semantic segmentation is essential in computer vision for various applications, yet traditional approaches face significant challenges, including the high cost of annotation and extensive training for supervised learning. Additionally, due to the limited predefined categories in supervised learning, models typically struggle with infrequent classes and are unable to predict novel classes. To address these limitations, we propose MaskDiffusion, an innovative approach that leverages pretrained frozen Stable Diffusion to achieve open-vocabulary semantic segmentation without the need for additional training or annotation, leading to improved performance compared to similar methods. We also demonstrate the superior performance of MaskDiffusion in handling open vocabularies, including fine-grained and proper noun-based categories, thus expanding the scope of segmentation applications. Overall, our MaskDiffusion shows significant qualitative and quantitative improvements in contrast to other comparable unsupervised segmentation methods, i.e. on the Potsdam dataset (+10.5 mIoU compared to GEM) and COCO-Stuff (+14.8 mIoU compared to DiffSeg)." />
     <meta name="twitter:image" content="https://valkyrja3607.github.io/MaskDiffusion/images/overview.png" />
 
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-115292904-1', 'auto');
-        ga('send', 'pageview');
-    </script>
-    <!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💫</text></svg>"> -->
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.css">
